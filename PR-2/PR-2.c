@@ -9,7 +9,8 @@ main()
 
     char grade = (marks >= 90 && marks <= 100) ? 'A' :(marks >= 75 && marks <= 89)  ? 'B' :(marks >= 60 && marks <= 74)  ? 'C' :(marks >= 40 && marks <= 59)  ? 'D' :(marks >= 0  && marks < 40)   ? 'F' : 'X';
 
-    if (grade == 'X') {
+    if (grade == 'X')
+	{
         printf("Invalid Marks");
     }
 
