@@ -11,7 +11,6 @@ int main()
         printf("%c, ", ch);
     else
         printf("%c", ch);
-    
     ch += 4;
     goto start;
     
